@@ -132,8 +132,7 @@ ___
 
 ___
 `Newscatcher.print_headlines(n)` - Print top `n` headlines
-
-<br> 
+ 
 <br> 
 <br> 
 <br> 
