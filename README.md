@@ -1,4 +1,4 @@
-# Newscatcher
+# NEWSCATCHER
 **Programmatically collect normalized news from (almost) any website.**
 
 Filter by **topic**, **country**, or **language**.
@@ -73,7 +73,7 @@ print(describe['topics'])
 ```
 
 
-### Get the list of all news feeds by topic/language/country
+### Get the list of all news feeds by Topic/Language/Country
 If you want to find the full list of supported news websites 
 you can always do so using `urls()` function
 ```python
@@ -106,7 +106,7 @@ from newscatcher import Newscatcher
 
 Newscatcher(website, topic = None)
 ```
-**Please take the base form url of a website** (without `www.`,neither `https://`, nor `/` at the end of url).
+**Please take the base form URL of a website** (without `www.`,neither `https://`, nor `/` at the end of url).
 
 For example: “nytimes”.com, “news.ycombinator.com” or “theverge.com”.
 ___
@@ -133,7 +133,7 @@ ___
 ___
 `Newscatcher.print_headlines(n)` - Print top `n` headlines
 
-
+<br> 
 <br> 
 <br> 
 <br> 
@@ -181,7 +181,7 @@ Supported languages:
 
 
 
-## Tech/framework used
+## Tech/Framework used
 The package itself is nothing more than a SQLite database with 
 RSS feed endpoints for each website and some basic wrapper of
 [feedparser](https://pythonhosted.org/feedparser/index.html).
